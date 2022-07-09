@@ -20,7 +20,7 @@ Launch _Quick Open_:
 Paste the following command and press `Enter`:
 
 ```shell
-ext install dsznajder.es7-react-js-snippets
+ext install blvess.es7-react-js-snippets
 ```
 
 ## Options
@@ -46,7 +46,7 @@ Manage pull requests and conduct code reviews in your IDE with full source-tree 
 It is possible to use this package in your vim/neovim text editor, to make this possible, make sure you have the `coc.nvim` previously configured, then add this command to your `init.vim`
 
 ```shell
-Plug 'dsznajder/vscode-es7-javascript-react-snippets', { 'do': 'yarn install --frozen-lockfile && yarn compile' }
+Plug 'blvess/vscode-es7-javascript-react-snippets', { 'do': 'yarn install --frozen-lockfile && yarn compile' }
 ```
 
 Update your vim / neovim settings with `:source %` and then install the new package with `:PlugInstall`
@@ -60,7 +60,7 @@ Note: This example uses `vim-plug` as a package manager, feel free to use some o
 For use with packer the syntax is a little different. Just add in your `init.vim` or `init.lua`:
 
 ```shell
-use {'dsznajder/vscode-es7-javascript-react-snippets',
+use {'blvess/vscode-es7-javascript-react-snippets',
 run = 'yarn install --frozen-lockfile && yarn compile'
 }
 ```
