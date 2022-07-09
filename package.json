@@ -44,7 +44,6 @@
     "onLanguage:javascript",
     "onLanguage:javascriptReact",
     "onCommand:reactSnippets.search",
-    "onStartupFinished"
   ],
   "contributes": {
     "commands": [
